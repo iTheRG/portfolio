@@ -1,0 +1,115 @@
+@font-face{
+    font-family: 'President-Cyr'; 
+    src:     url('../fonts/president-cyr.ttf') format('truetype');
+    }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'President-Cyr', arial; 
+}
+
+img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.content-wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.introduction {
+    margin-bottom: 200px;
+    width: 600px;
+    height: 200px;
+}
+.introduction-title {
+    transform: rotate(-0.89deg);
+    font-size: 4rem;
+    margin-left: 200px;
+    position: relative;
+    z-index: 1;
+}
+.introduction-subtitle {
+    transform: rotate(-0.9deg);
+    font-size: 2rem;
+    margin-top: 50px;
+    margin-left: 150px;
+    position: relative;
+    z-index: 1;
+}
+
+.contact-button {
+    position: relative;
+    z-index: 1;
+    width: 200px;
+    margin-left: 150px;
+    margin-top: 240px;
+    transform: rotate(1deg);
+}
+
+.contact-button a {
+    text-decoration: none;
+    font-size: 2.1rem;
+    color: white;
+    text-transform: uppercase;
+}
+
+.ui-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.links-wrapper {
+    width: 200px;
+    margin-left: 150px;
+    font-size: 2.1rem;
+    margin-top: 140px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.skills {
+    margin-right: 40px;
+    margin-left: -20px;
+}
+
+.skills, .projects {
+    text-decoration: none;
+    font-weight: 400;
+    color: black;
+    transform: rotate(-30deg);
+}
+
+.skills a, .projects a {
+    text-decoration: none;
+    color: black;
+}
+
+.skills a:hover, .projects a:hover, .contact-button a:hover {
+    color: rgb(22, 170, 22);
+}
+
+.coffeeNote {
+    position: absolute;
+    z-index: 1;
+    width: 150px;
+    left: 120px;
+    top: 60px;
+    font-size: 1.5rem;
+    font-weight: 800px;
+}
+
+
+    
