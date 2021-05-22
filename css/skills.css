@@ -1,0 +1,74 @@
+@font-face{
+    font-family: 'President-Cyr'; 
+    src: url('../fonts/president-cyr.ttf') format('truetype');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'President-Cyr', arial;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.navigation-list {
+    position: relative;
+    z-index: 1;
+    font-size: 2rem;
+    left: -80px;
+}
+
+.navigation-list ul {
+    list-style: none;
+    position: relative;
+    top: -40px;
+}
+
+.navigation-list ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.navigation-list ul a:hover {
+    color:rgb(22, 170, 22);
+}
+
+.title {
+    position: relative;
+    top: -40px;
+}
+
+.backToMain {
+    position: relative;
+    left: -80px;
+    z-index: 1;
+    width: 350px;
+}
+
+.backToMain a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: black;
+    position: relative;
+    top: -20px;
+}
+
+.backToMain a:hover {
+    background-color: #000;
+    border-radius: 5px;
+    color: white;
+}
